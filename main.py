@@ -41,4 +41,4 @@ async def on_message(message):
     Params = (message.content.split(PREFIX,1)[0]).split(" ")
     print(Params[0])
 
-#Client.run(TOKEN)
+Client.run(TOKEN)
